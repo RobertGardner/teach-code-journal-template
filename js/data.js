@@ -1,13 +1,8 @@
 /* exported data */
 
 var data = {
-  view: 'edit-profile',
-  profile: {
-    username: '',
-    fullName: '',
-    location: '',
-    avatarUrl: '',
-    bio: ''
-  },
-  entries: []
+  view: 'entry-form',
+  entries: [],
+  editing: null,
+  nextEntryId: 1
 };
