@@ -1,6 +1,6 @@
 {
   "*.html": [
-    "markuplint", "prettier --write"
+    "prettier --write", "markuplint"
   ],
   "*.css": [
     "stylelint --fix", "prettier --write"
