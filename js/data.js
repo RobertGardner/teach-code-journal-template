@@ -1,8 +1,8 @@
 /* exported data */
 
-var data = {
+let data = {
   view: 'entry-form',
   entries: [],
   editing: null,
-  nextEntryId: 1
+  nextEntryId: 1,
 };
