@@ -1,6 +1,4 @@
-/* exported data */
-
-let data = {
+const data = {
   view: 'entry-form',
   entries: [],
   editing: null,
